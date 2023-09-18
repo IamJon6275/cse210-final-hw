@@ -10,6 +10,7 @@ class Program
         int grade = int.Parse(userInput);
         string letter = "";
         string sign = "";
+        
         if (grade % 10 >= 7)
         {
             sign = "+";
